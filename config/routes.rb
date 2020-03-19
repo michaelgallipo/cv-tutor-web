@@ -5,7 +5,13 @@ Rails.application.routes.draw do
   namespace :api do
 
     get "subjects" => "subjects#index"
-    get "subject/:id" => "subjects#show"
-    
+    get "subjects/:id" => "subjects#show"
+
+    get "tutors" => "tutors#index"
+    get "tutors/:id" => "tutors#show"
+    post "tutors" => "tutors#create"
+    patch "tutors/:id" => "tutors#update"
+    delete "tutors/:id" => "tutors#delete"
+
   end
 end

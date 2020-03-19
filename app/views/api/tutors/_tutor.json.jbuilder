@@ -1,0 +1,15 @@
+json.id tutor.id
+json.name tutor.name
+json.street tutor.street
+json.city tutor.city
+json.state tutor.state
+json.zip tutor.zip
+json.school tutor.school
+json.email tutor.email
+json.phone tutor.phone
+json.phone_visible tutor.phone_visible
+json.about tutor.about
+json.grade_min tutor.grade_min
+json.grade_max tutor.grade_max
+json.rate tutor.rate
+json.accept_new tutor.accept_new
