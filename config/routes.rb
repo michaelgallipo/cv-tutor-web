@@ -13,5 +13,7 @@ Rails.application.routes.draw do
     patch "tutors/:id" => "tutors#update"
     delete "tutors/:id" => "tutors#delete"
 
+    post "sessions" => "sessions#create"
+
   end
 end
