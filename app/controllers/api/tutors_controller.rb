@@ -21,6 +21,8 @@ skip_before_action :verify_authenticity_token
       zip: params[:zip],
       school: params[:school],
       email: params[:email],
+      password: params[:password],
+      password_confirmation: params[:password_confirmation],
       phone: params[:phone],
       phone_visible: params[:phone_visible],
       about: params[:about],
@@ -68,6 +70,7 @@ skip_before_action :verify_authenticity_token
       render json: {message: "Account deleted"}
     else
       render json: {errors: @tutor.errors.full_message}, status: :unprocessable_entity
+    end
   end
 
 end
