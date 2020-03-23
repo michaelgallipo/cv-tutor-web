@@ -13,3 +13,4 @@ json.grade_min tutor.grade_min
 json.grade_max tutor.grade_max
 json.rate tutor.rate
 json.accept_new tutor.accept_new
+json.subjects tutor.subjects
