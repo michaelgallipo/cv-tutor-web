@@ -9,8 +9,16 @@ json.email tutor.email
 json.phone tutor.phone
 json.phone_visible tutor.phone_visible
 json.about tutor.about
+json.math tutor.math
+json.reading tutor.reading
+json.science tutor.science
+json.social_studies tutor.social_studies
+json.special_needs tutor.special_needs
+json.spelling tutor.spelling
 json.grade_min tutor.grade_min
 json.grade_max tutor.grade_max
 json.rate tutor.rate
 json.accept_new tutor.accept_new
+json.password ""
+json.password_confirmation  ""
 json.subjects tutor.subjects
