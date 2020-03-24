@@ -11,7 +11,7 @@ Rails.application.routes.draw do
     get "tutors/:id" => "tutors#show"
     post "tutors" => "tutors#create"
     patch "tutors/:id" => "tutors#update"
-    delete "tutors/:id" => "tutors#delete"
+    delete "tutors/:id" => "tutors#destroy"
 
     post "sessions" => "sessions#create"
 

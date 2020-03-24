@@ -1,7 +1,6 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+Tutor.create!([
+  {name: "Michael Gallipo", street: "100 Winkley Farm Lane", city: "Rochester", state: "NH", zip: "03867", school: "Duke University", email: "deviljmg@yahoo.com", phone: "603-531-9707", phone_visible: true, about: "Honors grad of Duke Univserity with a degree in Public Polcy", grade_min: 3, grade_max: 7, rate: "$5-20", accept_new: true, password_digest: nil, math: true, reading: true, science: false, social_studies: false, special_needs: false, spelling: false},
+  {name: "Jon Smith", street: "45 Main Street", city: "Dover", state: "NH", zip: "03820", school: "University of New Hampshire", email: "jsmith@unh.edu", phone: "603-555-1111", phone_visible: true, about: "Lorem Ispum sample text", grade_min: 1, grade_max: 4, rate: "10", accept_new: true, password_digest: nil, math: true, reading: false, science: true, social_studies: true, special_needs: false, spelling: false},
+  {name: "Samantha Jones", street: "234 East 7th Street", city: "Phoenix", state: "AZ", zip: "85012", school: "Arizona State", email: "sam_jones03@gmail.com", phone: "602-888-0202", phone_visible: false, about: "Some Stuff", grade_min: 2, grade_max: 5, rate: "12-15", accept_new: true, password_digest: "$2a$12$wJyAh2CqradNvg7fEvalV.icRBM4nJVNbeLLxdKUFwZV00wDgP896", math: false, reading: true, science: false, social_studies: false, special_needs: true, spelling: true},
+  {name: "Alexa Day", street: "455 Wayward Lane", city: "Rochester", state: "NH", zip: "03867", school: "UNH", email: "aday@aol.com", phone: "603-222-9988", phone_visible: true, about: "I really really rock! No really I do.", grade_min: 2, grade_max: 6, rate: "7.50", accept_new: true, password_digest: "$2a$12$arZaib/vF3eayOnRka5Uh.NStZ1ofXOiIRiq464SFBiXlueHDGB1S", math: true, reading: true, science: false, social_studies: true, special_needs: false, spelling: true}
+])
