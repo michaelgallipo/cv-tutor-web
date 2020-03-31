@@ -2,7 +2,7 @@ class Tutor < ApplicationRecord
 
   has_secure_password
   validates :email, presence: true, uniqueness: true
-
+  
   def subjects
     a = []
     if math == true

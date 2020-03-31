@@ -4,6 +4,8 @@ skip_before_action :verify_authenticity_token
 
   def index
     @tutors = Tutor.all
+    @tutors = @tutors.order('id ASC')
+    # @tutors = @tutors.shuffle
     render "index.json.jbuilder"
   end
 
